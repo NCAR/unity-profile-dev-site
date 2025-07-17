@@ -1,6 +1,6 @@
 # Unity Profile Dev Site
 
-A local Drupal 10 development site using the [Unity install profile](https://github.com/NCAR/unity-profile), built for testing, development, and configuration of NCAR's Unity-based upstream.
+A local Drupal 10 development site using the [Unity Profile](https://github.com/NCAR/unity-profile), built for testing, development, and configuration of NCAR's Unity-based upstream.
 
 Created by **Zongyao Yang**
 
@@ -21,7 +21,7 @@ Ensure you have the following installed:
 
 ---
 
-## 🛠️ Setup Instructions
+## Setup Instructions
 
 ```bash
 # 1. Clone this repository (with submodules)
