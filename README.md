@@ -25,7 +25,7 @@ Ensure you have the following installed:
 
 ```bash
 # 1. Clone this repository (with submodules)
-git clone --recurse-submodules git@github.com:NCAR/unity-profile-dev-site.git
+git clone --recurse-submodules https://github.com/NCAR/unity-profile-dev-site/
 cd unity-profile-dev-site
 
 # 2. Start DDEV
