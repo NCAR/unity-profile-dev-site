@@ -1,0 +1,19 @@
+uuid: ab144678-0903-4517-be3f-507e36714dc9
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: a2VpCo9MxbxPpJiYYPAj0cyaYTPmhvTnOqIBcJ8UdzM
+name: 'Simple text'
+format: simple_text
+weight: -7
+filters:
+  filter_html:
+    id: filter_html
+    provider: filter
+    status: true
+    weight: -10
+    settings:
+      allowed_html: ''
+      filter_html_help: false
+      filter_html_nofollow: false

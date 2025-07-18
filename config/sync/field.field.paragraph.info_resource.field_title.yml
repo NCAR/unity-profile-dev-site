@@ -1,0 +1,21 @@
+uuid: 0e725ccd-1df2-4e16-b504-ed27c12fd4d1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_title
+    - paragraphs.paragraphs_type.info_resource
+_core:
+  default_config_hash: fC_NLBzHlmIHVtdPeDK2i4eXRC7-WX2ft-mtWQ2FD9g
+id: paragraph.info_resource.field_title
+field_name: field_title
+entity_type: paragraph
+bundle: info_resource
+label: Title
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,23 @@
+uuid: 67a166bb-1dcc-4355-bf43-9315ea607c82
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: P-5q01i36-mo5clQSHOuQWNmLjGX3ly5LRHJTgEa7f8
+id: node.field_dataset_file_size
+field_name: field_dataset_file_size
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

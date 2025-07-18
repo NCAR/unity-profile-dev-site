@@ -1,0 +1,21 @@
+uuid: ff9e876c-1913-4625-8a98-32714409ad79
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+    - telephone
+_core:
+  default_config_hash: OSvqq9rfV83c8jJXA0JzwIBQ731TpebWutfoAVG0xZo
+id: taxonomy_term.field_phone
+field_name: field_phone
+entity_type: taxonomy_term
+type: telephone
+settings: {  }
+module: telephone
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

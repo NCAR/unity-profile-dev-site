@@ -1,0 +1,25 @@
+uuid: fb4b6dd1-992d-4105-a1f3-f92af3dde97b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.automatic_content_list.field_block_ref
+    - paragraphs.paragraphs_type.automatic_content_list
+_core:
+  default_config_hash: IJLS0Vx4Myv3yVIABM7b5duH4cLLlioeuVD0ga4jRKg
+id: paragraph.automatic_content_list.default
+targetEntityType: paragraph
+bundle: automatic_content_list
+mode: default
+content:
+  field_block_ref:
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: content
+hidden:
+  search_api_excerpt: true

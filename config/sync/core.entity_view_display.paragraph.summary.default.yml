@@ -1,0 +1,51 @@
+uuid: 089795e5-346f-4453-b62a-211faaa17e55
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.summary.field_body
+    - field.field.paragraph.summary.field_link
+    - field.field.paragraph.summary.field_media_item
+    - image.style.half_width
+    - paragraphs.paragraphs_type.summary
+  module:
+    - link
+    - media
+    - text
+_core:
+  default_config_hash: q2voe3dq6de_5ssVZFSUGgKQu7Fe-b89VANBCRWsx0Y
+id: paragraph.summary.default
+targetEntityType: paragraph
+bundle: summary
+mode: default
+content:
+  field_body:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_link:
+    weight: 2
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link_separate
+    region: content
+  field_media_item:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: half_width
+      image_link: ''
+    third_party_settings: {  }
+    type: media_thumbnail
+    region: content
+hidden:
+  search_api_excerpt: true

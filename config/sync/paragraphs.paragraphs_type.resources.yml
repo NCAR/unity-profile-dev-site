@@ -1,0 +1,12 @@
+uuid: b3d49130-3682-4664-802d-8842f5ff6132
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: sEC46jSUlLITr7EkzagaT-ov3_BFyAtQF7BrMCp_NiM
+id: resources
+label: Resources
+icon_uuid: null
+icon_default: null
+description: 'Provide links to downloadable resources with describing text.'
+behavior_plugins: {  }

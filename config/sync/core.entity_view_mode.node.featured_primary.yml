@@ -1,0 +1,13 @@
+uuid: 0d8faae8-b0c7-47c7-a5cd-67cb2ce6af4e
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: 3WQXy6mqpZ2Tr3Eh_9zy0jKTiae7atg3vQkFDkLIAQQ
+id: node.featured_primary
+label: 'Featured Primary'
+description: ''
+targetEntityType: node
+cache: true

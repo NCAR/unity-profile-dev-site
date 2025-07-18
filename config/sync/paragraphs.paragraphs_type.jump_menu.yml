@@ -1,0 +1,12 @@
+uuid: 507174c9-d76c-4d57-aa19-6124aac19abb
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: kDjYsdael_4kI85O-PD9G56XbZVYbsc5x7sZDwaND7w
+id: jump_menu
+label: 'Jump Menu'
+icon_uuid: null
+icon_default: null
+description: 'Automatically generates a table of contents based on H2-level headings in Paragraphs that follow it.'
+behavior_plugins: {  }

@@ -1,0 +1,12 @@
+uuid: 5ef33a13-0bd5-4181-ab43-c55c9f80a849
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: o848g-Ds_OPBrUXzbJq1OiOCVjq6qQNDDz9hY4dWEAk
+id: automatic_content_list
+label: 'Automatic content list'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

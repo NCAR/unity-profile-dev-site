@@ -1,0 +1,17 @@
+uuid: 46d56b3f-41a4-4120-8676-8298f1e21ac1
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: i_98dv1erT7OAns5Z7ZOWCXU4TRtCbvQAwzSPKm5C5U
+name: square
+label: Square
+effects:
+  19009c1c-1f4e-4a4d-a75c-06b4dba7f009:
+    uuid: 19009c1c-1f4e-4a4d-a75c-06b4dba7f009
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 440
+      height: 440
+      anchor: center-center

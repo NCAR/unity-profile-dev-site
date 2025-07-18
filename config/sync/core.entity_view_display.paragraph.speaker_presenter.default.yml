@@ -1,0 +1,62 @@
+uuid: 6f3d5b85-832f-470f-9a7e-6e9c84d54651
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.speaker_presenter.field_biographical_photo
+    - field.field.paragraph.speaker_presenter.field_biography
+    - field.field.paragraph.speaker_presenter.field_job_title
+    - field.field.paragraph.speaker_presenter.field_organization
+    - field.field.paragraph.speaker_presenter.field_title
+    - paragraphs.paragraphs_type.speaker_presenter
+  module:
+    - text
+_core:
+  default_config_hash: XwkcBo4TMaKLkIONzQ0IxMg_nT6JvrBztyyx4_LijGU
+id: paragraph.speaker_presenter.default
+targetEntityType: paragraph
+bundle: speaker_presenter
+mode: default
+content:
+  field_biographical_photo:
+    type: entity_reference_entity_view
+    weight: 5
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+  field_biography:
+    weight: 6
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_job_title:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_organization:
+    weight: 2
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_title:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden:
+  search_api_excerpt: true

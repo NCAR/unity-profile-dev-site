@@ -1,0 +1,56 @@
+uuid: d0a81de7-6723-4be8-81f2-6f6d4bd8368b
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.card
+    - field.field.node.basic_page.field_form
+    - field.field.node.basic_page.field_main_content
+    - field.field.node.basic_page.field_primary_image
+    - field.field.node.basic_page.field_related_links
+    - field.field.node.basic_page.field_resource_link
+    - field.field.node.basic_page.field_teaser_summary
+    - field.field.node.basic_page.layout_builder__layout
+    - image.style.large
+    - node.type.basic_page
+  module:
+    - layout_builder
+    - media
+    - text
+    - user
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
+_core:
+  default_config_hash: UIhf7KTydwPBxgkWsLigMUP1a3kwqRcCl0H-TFn4zP8
+id: node.basic_page.card
+targetEntityType: node
+bundle: basic_page
+mode: card
+content:
+  field_primary_image:
+    type: media_thumbnail
+    label: hidden
+    settings:
+      image_link: content
+      image_style: large
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_teaser_summary:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  field_form: true
+  field_main_content: true
+  field_related_links: true
+  field_resource_link: true
+  layout_builder__layout: true
+  links: true
+  page_contacts_contacts: true
+  search_api_excerpt: true

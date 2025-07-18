@@ -1,0 +1,28 @@
+uuid: d7c41b5f-8924-4567-ad7c-f96ae589875c
+langcode: en
+status: true
+dependencies:
+  module:
+    - notification_message
+  theme:
+    - unity
+_core:
+  default_config_hash: mNOv6AlPmUu3m4wk_UDdQvOLY_JJuO5DBR7UU4_XsOc
+id: notification_messages
+theme: unity
+region: header
+weight: -1
+provider: null
+plugin: notification_message
+settings:
+  id: notification_message
+  label: 'Notification messages'
+  label_display: '0'
+  provider: notification_message
+  notification_message:
+    type:
+      exceptional: exceptional
+      informational: informational
+      normal: normal
+    display_mode: default
+visibility: {  }

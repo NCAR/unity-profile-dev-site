@@ -1,0 +1,24 @@
+uuid: 0d90728e-f45e-4a49-a1fd-530ab145be20
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.card_grid
+    - field.storage.block_content.field_items
+_core:
+  default_config_hash: dWU0PoQlg13yDo-8O1Dw6GtnbD4q6GUDj_H3F-jkhXU
+id: block_content.card_grid.field_items
+field_name: field_items
+entity_type: block_content
+bundle: card_grid
+label: Items
+description: 'Select all of the pages which should appear as a grid card.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: view_mode_selection
+  handler_settings:
+    view_mode: card
+field_type: entity_reference

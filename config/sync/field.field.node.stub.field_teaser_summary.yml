@@ -1,0 +1,24 @@
+uuid: 52d12246-d7b2-4ab8-bf75-0cd896fedb88
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_teaser_summary
+    - node.type.stub
+  module:
+    - text
+_core:
+  default_config_hash: _TpAwheK0BD2z0YIJOIyTH7f0y6j_jSRRehqtw8eI_w
+id: node.stub.field_teaser_summary
+field_name: field_teaser_summary
+entity_type: node
+bundle: stub
+label: 'Teaser summary'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

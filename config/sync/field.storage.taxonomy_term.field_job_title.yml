@@ -1,0 +1,23 @@
+uuid: de0565d2-fcc8-4080-b43f-16cf41f18d8d
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+_core:
+  default_config_hash: NeWhgmYI5n-EP_-2PU66PoTNkDJ8Bet_HcbEWT3V4Q0
+id: taxonomy_term.field_job_title
+field_name: field_job_title
+entity_type: taxonomy_term
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,39 @@
+uuid: 0ac6a7cd-938f-4c8f-8000-7b3ca7018d30
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.link_resource.field_description
+    - field.field.paragraph.link_resource.field_link
+    - paragraphs.paragraphs_type.link_resource
+  module:
+    - link
+    - text
+_core:
+  default_config_hash: s_uaD9daWB4kOWB8PBANz6CFVbKPo59fCoyEIof8nw0
+id: paragraph.link_resource.default
+targetEntityType: paragraph
+bundle: link_resource
+mode: default
+content:
+  field_description:
+    weight: 2
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+    type: text_textarea_with_summary
+    region: content
+  field_link:
+    weight: 1
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+hidden:
+  created: true
+  status: true

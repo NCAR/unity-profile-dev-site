@@ -1,0 +1,25 @@
+uuid: f7619867-6dc1-4ba0-940c-a61129550d91
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.notification_message.field_link
+    - notification_message.type.normal
+  module:
+    - link
+_core:
+  default_config_hash: aDlKVN1xuDChTXj5SNwjm9MjEdf4A3ReFR1suFF7C0k
+id: notification_message.normal.field_link
+field_name: field_link
+entity_type: notification_message
+bundle: normal
+label: Link
+description: "Notification message's call to action link."
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 2
+field_type: link

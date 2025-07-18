@@ -1,0 +1,25 @@
+uuid: 542ff5ec-d0a2-421f-a782-bded25ff7a83
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.jump_menu.field_jump_menu_title
+    - paragraphs.paragraphs_type.jump_menu
+_core:
+  default_config_hash: cGJU82TDXosu2QxtQMv0v2sdWJ1wmvQ9gtHhbIoCquA
+id: paragraph.jump_menu.default
+targetEntityType: paragraph
+bundle: jump_menu
+mode: default
+content:
+  field_jump_menu_title:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true

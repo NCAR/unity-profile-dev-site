@@ -1,0 +1,12 @@
+uuid: 0c03d100-ccb7-44bf-9123-fde109e73107
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: tyIpWh6uIOm_EbCkpJjL6lSiy9O0flXMioKpGmJyELU
+id: rich_text
+label: 'Rich Text'
+icon_uuid: null
+icon_default: null
+description: 'Provides a Rich Text editor, useful for formatted text and embedded media.'
+behavior_plugins: {  }

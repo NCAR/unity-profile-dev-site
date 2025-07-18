@@ -1,0 +1,31 @@
+uuid: d8ca59fd-ddd7-41f1-b6e6-cd4e92f75e40
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_primary_image
+    - media.type.image
+    - node.type.stub
+_core:
+  default_config_hash: X3Lg0YlOjScko12uE4Ps9LEgUqj-MIxI0kOsj2ql2S8
+id: node.stub.field_primary_image
+field_name: field_primary_image
+entity_type: node
+bundle: stub
+label: 'Teaser image'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: created
+      direction: DESC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

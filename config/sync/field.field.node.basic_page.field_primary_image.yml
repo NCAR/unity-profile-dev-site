@@ -1,0 +1,31 @@
+uuid: f001188b-5661-4299-9e54-cb81da4cdd05
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_primary_image
+    - media.type.image
+    - node.type.basic_page
+_core:
+  default_config_hash: jtHzJSwdv2-H51Jx5quTidlcfqH0LpgjNGQcLERHxS8
+id: node.basic_page.field_primary_image
+field_name: field_primary_image
+entity_type: node
+bundle: basic_page
+label: 'Teaser image'
+description: 'Provide an image to be used in teasers for this page.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: changed
+      direction: DESC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

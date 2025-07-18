@@ -1,0 +1,26 @@
+uuid: ea012a2e-babe-448a-9073-042848961a23
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.site_search
+  module:
+    - views
+  theme:
+    - block_repository
+_core:
+  default_config_hash: B4lV-6mezkRmyRNG6PmYKVmturwJnIuzHbpVlBTBwdY
+id: views_block__search_site_content
+theme: block_repository
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:site_search-search_site_content'
+settings:
+  id: 'views_block:site_search-search_site_content'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility: {  }

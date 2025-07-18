@@ -1,0 +1,25 @@
+uuid: 835234a0-c62f-4c79-a693-7d1d8164dcd7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.jump_menu.field_jump_menu_title
+    - paragraphs.paragraphs_type.jump_menu
+  module:
+    - basic_page
+_core:
+  default_config_hash: KhwYAlZecjDLVC2j-_1jMKC9sa2oF7XGqp5dp5sHRc8
+id: paragraph.jump_menu.default
+targetEntityType: paragraph
+bundle: jump_menu
+mode: default
+content:
+  field_jump_menu_title:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: jump_menu
+    region: content
+hidden:
+  search_api_excerpt: true

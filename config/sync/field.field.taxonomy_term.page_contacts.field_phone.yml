@@ -1,0 +1,23 @@
+uuid: 81fd1994-fdbe-47e6-a51b-2f57f6d80c9d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_phone
+    - taxonomy.vocabulary.page_contacts
+  module:
+    - telephone
+_core:
+  default_config_hash: Ry3o2ZR1Wfn6Ne1-i3LsTJum_DVhQvMm3FXmNUxQG1U
+id: taxonomy_term.page_contacts.field_phone
+field_name: field_phone
+entity_type: taxonomy_term
+bundle: page_contacts
+label: Phone
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: telephone

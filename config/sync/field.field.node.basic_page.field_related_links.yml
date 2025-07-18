@@ -1,0 +1,25 @@
+uuid: 37506093-abf3-492b-ac38-755a8f53d37b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_related_links
+    - node.type.basic_page
+  module:
+    - link
+_core:
+  default_config_hash: GycEw0qFHnokBVpRjmcQhv36V_DkJQVoh3OscfdDmoU
+id: node.basic_page.field_related_links
+field_name: field_related_links
+entity_type: node
+bundle: basic_page
+label: 'Related Links'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

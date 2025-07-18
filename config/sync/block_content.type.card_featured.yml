@@ -1,0 +1,10 @@
+uuid: 532493c4-b172-4457-baed-222d09d1ec86
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: U8MsRbHqFnb3V3i3ZwlCclI4j_thBUefwoXM97kJKRU
+id: card_featured
+label: 'Featured Cards'
+revision: false
+description: 'A primary teaser with 3 secondary teasers and a custom link'

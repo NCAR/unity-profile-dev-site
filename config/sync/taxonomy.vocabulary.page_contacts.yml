@@ -1,0 +1,11 @@
+uuid: 5376dcb1-7632-48c2-b75a-4fdf1eda7051
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: QdK9c4cw-tCRwYlC1IkiakCzeFBclrsuZBsY-0gJpjw
+name: 'Page contacts'
+vid: page_contacts
+description: 'Contact information for individuals responsible for maintaining site content.'
+weight: 0
+new_revision: false

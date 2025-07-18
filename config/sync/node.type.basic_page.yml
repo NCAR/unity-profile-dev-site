@@ -1,0 +1,24 @@
+uuid: 0e8e9966-8de1-436d-8fcb-41f72b3c60d9
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+    - page_contacts
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+  page_contacts:
+    enabled: true
+    required: false
+_core:
+  default_config_hash: amTR3cSQMM7aoIvAqHYtAEaZWfFstk44G-LdBdSpG6g
+name: 'Basic page'
+type: basic_page
+description: 'A basic page is for general content, usually describing a single topic. It does not have additional structured metadata like an event (e.g. a time, date, and location).'
+help: null
+new_revision: true
+preview_mode: 0
+display_submitted: false

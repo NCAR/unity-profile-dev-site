@@ -1,0 +1,12 @@
+uuid: 74e1c9be-cd58-4a06-8b05-2000056ea84f
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: JTa_jGY93Sc_bUJliu26n55KUK5JVwur3XHKK5BkF38
+id: curated_content_list
+label: 'Curated content list'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

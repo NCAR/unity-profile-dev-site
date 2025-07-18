@@ -1,0 +1,21 @@
+uuid: 5dbeceae-0a11-4d02-8a12-4faea32c41bc
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - text
+_core:
+  default_config_hash: tf0NvgzrhUlzZ6lH_C0vbZi76trGGichVMKPOF1i35k
+id: paragraph.field_biography
+field_name: field_biography
+entity_type: paragraph
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

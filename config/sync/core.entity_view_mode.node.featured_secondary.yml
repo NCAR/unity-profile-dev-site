@@ -1,0 +1,13 @@
+uuid: 0d85795c-9d0a-4d1e-a961-56fa776c862f
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: cqU1WE7qwFBT3pD6v1KhgcI0pue53DXydn7pmm7Y_bA
+id: node.featured_secondary
+label: 'Featured Secondary'
+description: ''
+targetEntityType: node
+cache: true

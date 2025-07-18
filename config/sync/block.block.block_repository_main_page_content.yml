@@ -1,0 +1,22 @@
+uuid: 98c76bc9-731b-4352-9a05-ebd901688c30
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - block_repository
+_core:
+  default_config_hash: jlnU-qMzoMxfnscy9Rtea-EFjTaSDEFhV1ijecUFcy8
+id: block_repository_main_page_content
+theme: block_repository
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

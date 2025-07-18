@@ -1,0 +1,12 @@
+uuid: 32e51dc5-ed00-4b47-8c8e-18decdd60efa
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 1OfvIdaqjUzCopBA5MF3zog9UalhsWCtYIeAmPf4hlE
+id: accordion
+label: Accordion
+icon_uuid: null
+icon_default: null
+description: 'Adds an accordion with unlimited items to a page.'
+behavior_plugins: {  }

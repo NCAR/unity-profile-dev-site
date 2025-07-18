@@ -1,0 +1,56 @@
+uuid: f82a5bc0-5f3e-433f-b623-5b8490d839a9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.notification_message.normal.field_link
+    - notification_message.type.normal
+  module:
+    - link
+    - text
+    - user
+_core:
+  default_config_hash: YEvvcFci5e35TlFqKtPUjMCxPRdzK3iV9R6wpdAjY-c
+id: notification_message.normal.default
+targetEntityType: notification_message
+bundle: normal
+mode: default
+content:
+  field_link:
+    weight: 1
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  label:
+    label: hidden
+    type: string
+    weight: -10
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  message:
+    label: hidden
+    weight: -5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+  uid:
+    label: hidden
+    type: author
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  publish_end_date: true
+  publish_start_date: true
+  search_api_excerpt: true

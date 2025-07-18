@@ -1,0 +1,12 @@
+uuid: 881a2215-8afa-4186-bd40-b260ca377532
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 6X1AQ-8q1IbXVDoG6oX2ZPzSw6VVxRc8isDQWUBygsE
+id: link_resource
+label: 'Link Resource'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,27 @@
+uuid: b8212ae5-41db-4bba-aaa4-e28b20a0a3d5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.highlighted_page.field_page
+    - paragraphs.paragraphs_type.highlighted_page
+_core:
+  default_config_hash: zZQ3lXWBmeOx6XTSujhTyz-nvRLrN0DYsWkvAlPBhiQ
+id: paragraph.highlighted_page.default
+targetEntityType: paragraph
+bundle: highlighted_page
+mode: default
+content:
+  field_page:
+    weight: 0
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+hidden:
+  created: true
+  status: true

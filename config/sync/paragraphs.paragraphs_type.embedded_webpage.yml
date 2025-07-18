@@ -1,0 +1,12 @@
+uuid: 3653cd90-1ac0-4441-97e5-0043c7e37866
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: nswPxlNFWcPHLcA4UxK6o1Dp4mDB0F_qpExMdrOZV3M
+id: embedded_webpage
+label: 'Embedded Webpage'
+icon_uuid: null
+icon_default: null
+description: 'For display pages from external websites. Please note that some websites do not allow their content to be embedded in this way.'
+behavior_plugins: {  }

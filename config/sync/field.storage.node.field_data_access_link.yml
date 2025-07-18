@@ -1,0 +1,21 @@
+uuid: 98a5aece-7550-45c4-8194-92b5696081db
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - node
+_core:
+  default_config_hash: dCT-GUc5BPMsrW9k8CpjjQ6ZMdRwpg-w3I_eo44Mgb4
+id: node.field_data_access_link
+field_name: field_data_access_link
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

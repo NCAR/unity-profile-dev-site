@@ -1,0 +1,34 @@
+uuid: 72efb91c-e625-4e06-921b-f690cfe850ad
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.info_resource.field_body
+    - field.field.paragraph.info_resource.field_title
+    - paragraphs.paragraphs_type.info_resource
+  module:
+    - text
+_core:
+  default_config_hash: X9bQkVu3guFo6Sz77HC2-x7K_v5u-SyAbQ3uxlX_y54
+id: paragraph.info_resource.default
+targetEntityType: paragraph
+bundle: info_resource
+mode: default
+content:
+  field_body:
+    weight: 1
+    label: visually_hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_title:
+    weight: 0
+    label: visually_hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden:
+  search_api_excerpt: true

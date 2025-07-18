@@ -1,0 +1,18 @@
+uuid: 0cbe083c-160c-4ae7-8fe6-aa01dde3c5a6
+langcode: en
+status: true
+dependencies:
+  module:
+    - eu_cookie_compliance
+    - media
+    - system
+_core:
+  default_config_hash: AKGAuB9k61Od6xThMeJYCW5KucktRf0Lb9ZEgFWHZuI
+id: anonymous
+label: 'Anonymous user'
+weight: 0
+is_admin: false
+permissions:
+  - 'access content'
+  - 'display eu cookie compliance popup'
+  - 'view media'

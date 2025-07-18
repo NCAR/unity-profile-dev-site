@@ -1,0 +1,25 @@
+uuid: 36dfcd4e-974e-427d-a66c-9f41dd6c2aa9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.curated_content_list.field_block_ref
+    - paragraphs.paragraphs_type.curated_content_list
+_core:
+  default_config_hash: MrpHDLJq6d6IJJJrY6nyrAb4kJwiU3SJ5Et5VX9tS8w
+id: paragraph.curated_content_list.default
+targetEntityType: paragraph
+bundle: curated_content_list
+mode: default
+content:
+  field_block_ref:
+    weight: 0
+    label: hidden
+    settings:
+      link: true
+      view_mode: default
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: content
+hidden:
+  search_api_excerpt: true

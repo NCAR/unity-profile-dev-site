@@ -1,0 +1,81 @@
+uuid: 8d9e4648-748d-4b10-96bd-7e0891749d38
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_main_content
+    - node.type.listing_page
+    - paragraphs.paragraphs_type.accordion
+    - paragraphs.paragraphs_type.automatic_content_list
+    - paragraphs.paragraphs_type.content_menu
+    - paragraphs.paragraphs_type.curated_content_list
+    - paragraphs.paragraphs_type.rich_text
+  module:
+    - entity_reference_revisions
+_core:
+  default_config_hash: zNEN3yvwFQZYt96yh5hcVsNi8scR2nEUu81Jg1m3mKY
+id: node.listing_page.field_main_content
+field_name: field_main_content
+entity_type: node
+bundle: listing_page
+label: 'Main content'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      accordion: accordion
+      automatic_content_list: automatic_content_list
+      curated_content_list: curated_content_list
+      rich_text: rich_text
+      content_menu: content_menu
+    target_bundles_drag_drop:
+      accordion:
+        enabled: false
+      agenda:
+        enabled: false
+      agenda_heading:
+        enabled: false
+      agenda_item:
+        enabled: false
+      automatic_content_list:
+        enabled: true
+      content_menu:
+        enabled: true
+      curated_content_list:
+        enabled: true
+      embedded_webpage:
+        enabled: false
+      featured_speakers_presenters:
+        enabled: false
+      highlighted_page:
+        enabled: false
+      layout_component:
+        enabled: false
+      link_resource:
+        enabled: false
+      masthead:
+        enabled: false
+      media_resource:
+        enabled: false
+      resources:
+        enabled: false
+      rich_text:
+        enabled: true
+        weight: -1
+      schedule_note:
+        enabled: false
+      speaker_presenter:
+        enabled: false
+      summary:
+        enabled: false
+      supporter:
+        enabled: false
+      supporters:
+        enabled: false
+field_type: entity_reference_revisions

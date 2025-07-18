@@ -1,0 +1,12 @@
+uuid: e00ddb86-8fcf-4381-839c-a0f8bec9986d
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Alz6AtIK3402ISZFdYKY6No66Mqmor-FPBTKghk3asM
+id: masthead
+label: Masthead
+icon_uuid: null
+icon_default: null
+description: 'A masthead is a full width image overlaid by a short sentence describing the topic of the page. The sentence can be accompanied by an optional call-to-action button.'
+behavior_plugins: {  }

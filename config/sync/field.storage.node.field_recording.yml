@@ -1,0 +1,21 @@
+uuid: 9154fe7d-4cda-4444-83ca-1b31e3654ffe
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - node
+_core:
+  default_config_hash: zTcV5x8nzNqyldvn6cU9qfq1zVSzfsRVdI8zDSEBr3w
+id: node.field_recording
+field_name: field_recording
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

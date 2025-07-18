@@ -1,0 +1,22 @@
+uuid: 14527053-252c-4ca7-b774-ba1e77f5c713
+langcode: en
+status: true
+dependencies:
+  module:
+    - block
+    - paragraphs
+_core:
+  default_config_hash: 07alyFIo3LJEvkmGxrHjTTZfF-vfW7LjWjeTJMqlAm8
+id: paragraph.field_block_ref
+field_name: field_block_ref
+entity_type: paragraph
+type: entity_reference
+settings:
+  target_type: block
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,24 @@
+uuid: ee0e9012-69aa-4172-8181-cd3c6772e416
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_body
+    - paragraphs.paragraphs_type.summary
+  module:
+    - text
+_core:
+  default_config_hash: S6fZ7byY61DK9Gk9LGV10XasoiShPvDLsW7qmogyPh8
+id: paragraph.summary.field_body
+field_name: field_body
+entity_type: paragraph
+bundle: summary
+label: 'Page summary'
+description: 'Describe the topic covered by this page.'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

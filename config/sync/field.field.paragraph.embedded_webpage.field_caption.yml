@@ -1,0 +1,24 @@
+uuid: 30255ebf-00a8-4e49-b0d3-bbc9c586bed6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_caption
+    - paragraphs.paragraphs_type.embedded_webpage
+  module:
+    - text
+_core:
+  default_config_hash: w1cmsO9s79PBOesgRH_MjrXt3DBPKSvJHdH2y-7m8xs
+id: paragraph.embedded_webpage.field_caption
+field_name: field_caption
+entity_type: paragraph
+bundle: embedded_webpage
+label: Caption
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text

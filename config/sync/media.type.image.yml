@@ -1,0 +1,16 @@
+uuid: fc0f9327-8f27-4b04-9672-9fa3421052c6
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 5oDsoDJn9FRDhWtn48M80la-KSlut5wRLQJGWbytR4k
+id: image
+label: Image
+description: 'For photos and other graphics.'
+source: image
+queue_thumbnail_downloads: false
+new_revision: true
+source_configuration:
+  source_field: field_media_image
+field_map:
+  name: name

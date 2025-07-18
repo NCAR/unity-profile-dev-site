@@ -1,0 +1,23 @@
+uuid: 0c75f62e-f315-4d3b-988d-93f3da8166d3
+langcode: en
+status: true
+dependencies:
+  theme:
+    - block_repository
+_core:
+  default_config_hash: Q1VafiOvntSsffO0o39D3uCSpP4RWpaOK1aUg2h7R2s
+id: custom_block__featured_work
+theme: block_repository
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:23a58529-be20-4782-b4a0-a04592fa52cd'
+settings:
+  id: 'block_content:23a58529-be20-4782-b4a0-a04592fa52cd'
+  label: 'Featured Work'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

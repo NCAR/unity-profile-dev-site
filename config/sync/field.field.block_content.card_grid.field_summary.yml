@@ -1,0 +1,24 @@
+uuid: 5c05b42d-4dac-4cab-96ea-7a079b1e023c
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.card_grid
+    - field.storage.block_content.field_summary
+  module:
+    - text
+_core:
+  default_config_hash: Nlz-Atr_p5kpB4dZCmCCO4ESRG31y395IBvHyE7WFo0
+id: block_content.card_grid.field_summary
+field_name: field_summary
+entity_type: block_content
+bundle: card_grid
+label: Summary
+description: 'A summary of the content presented in the grid.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

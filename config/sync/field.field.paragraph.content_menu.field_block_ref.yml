@@ -1,0 +1,26 @@
+uuid: 2c0db147-d97e-44ce-b963-682616042ee1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_block_ref
+    - paragraphs.paragraphs_type.content_menu
+_core:
+  default_config_hash: 2Iq08fIVLe9YEQfqAo-u-Oe4EQzyM1-ln7OqQ52p7p8
+id: paragraph.content_menu.field_block_ref
+field_name: field_block_ref
+entity_type: paragraph
+bundle: content_menu
+label: Menu
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:block'
+  handler_settings:
+    target_bundles: null
+    block_categories:
+      Menus: 1
+field_type: entity_reference

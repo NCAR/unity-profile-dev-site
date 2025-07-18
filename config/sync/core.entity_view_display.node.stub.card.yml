@@ -1,0 +1,44 @@
+uuid: 33d20d54-4e6e-4153-a6f1-9083be0dfae3
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.card
+    - field.field.node.stub.field_external_url
+    - field.field.node.stub.field_primary_image
+    - field.field.node.stub.field_teaser_summary
+    - field.field.node.stub.layout_builder__layout
+    - image.style.large
+    - node.type.stub
+  module:
+    - media
+    - text
+    - user
+_core:
+  default_config_hash: cJ9pLrYc5RG1kiPnlG5IDEFvDwOJ5Mq2EFJGpe2yx_k
+id: node.stub.card
+targetEntityType: node
+bundle: stub
+mode: card
+content:
+  field_primary_image:
+    type: media_thumbnail
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      image_style: large
+      image_link: ''
+    third_party_settings: {  }
+  field_teaser_summary:
+    type: text_default
+    weight: 1
+    region: content
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_external_url: true
+  layout_builder__layout: true
+  links: true
+  search_api_excerpt: true

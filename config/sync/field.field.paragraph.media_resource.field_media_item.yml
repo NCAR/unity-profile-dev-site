@@ -1,0 +1,31 @@
+uuid: 5d1a901e-b04c-4fa2-8429-96f194bec05f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_media_item
+    - media.type.document
+    - paragraphs.paragraphs_type.media_resource
+_core:
+  default_config_hash: AzCjTbZT3S9pJQs2Q5Ka1R4PJkOS5Xfom9ZWwv5rg8M
+id: paragraph.media_resource.field_media_item
+field_name: field_media_item
+entity_type: paragraph
+bundle: media_resource
+label: 'Media Item'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      document: document
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: document
+field_type: entity_reference

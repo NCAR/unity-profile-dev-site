@@ -1,0 +1,78 @@
+uuid: a9320120-f59d-42c2-acee-9191208caf1e
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.full_html
+  module:
+    - ckeditor5
+_core:
+  default_config_hash: KbeqYMQ-TIMJUNzDYfn6jS_FP_n8iBciXg0_17as9Ks
+format: full_html
+editor: ckeditor5
+settings:
+  toolbar:
+    items:
+      - style
+      - bold
+      - italic
+      - blockQuote
+      - horizontalLine
+      - insertTable
+      - '|'
+      - link
+      - anchor
+      - '|'
+      - bulletedList
+      - numberedList
+      - indent
+      - outdent
+      - '|'
+      - drupalMedia
+      - '|'
+      - removeFormat
+      - sourceEditing
+  plugins:
+    ckeditor5_style:
+      styles:
+        -
+          label: 'Intro Paragraph'
+          element: '<p class="body-font-large">'
+        -
+          label: Button
+          element: '<a class="btn btn-outline-primary btn-sm text-decoration-none">'
+        -
+          label: 'Phone Icon Link'
+          element: '<a class="i-phone--before">'
+        -
+          label: 'Email Icon Link'
+          element: '<a class="i-envelope--before">'
+        -
+          label: 'Chain Icon Link'
+          element: '<a class="i-link--before">'
+        -
+          label: 'PDF Icon Link'
+          element: '<a class="i-file-pdf--before">'
+        -
+          label: 'Download Icon Link'
+          element: '<a class="i-download--before">'
+        -
+          label: 'Responsive Table'
+          element: '<table class="rtable">'
+    ckeditor5_sourceEditing:
+      allowed_tags: {  }
+    ckeditor5_list:
+      properties:
+        reversed: false
+        startIndex: false
+      multiBlock: true
+    media_media:
+      allow_view_mode_override: false
+image_upload:
+  status: true
+  scheme: public
+  directory: inline-images
+  max_size: '100 MB'
+  max_dimensions:
+    width: null
+    height: null

@@ -1,0 +1,20 @@
+uuid: d65f6f79-5c6d-4d88-8af3-c979d7f59688
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+_core:
+  default_config_hash: IIPkgaAMw0ngNqZAxQsY9bzWvE1zrBpR9-7k27dmS3I
+name: 'Overview page'
+type: overview
+description: 'A page which provides a summary of―and links to―more in-depth pages.'
+help: null
+new_revision: false
+preview_mode: 0
+display_submitted: false

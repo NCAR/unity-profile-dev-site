@@ -1,0 +1,25 @@
+uuid: 40943354-fa17-46ce-a9e7-93cdb319b156
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.card_grid
+    - field.storage.block_content.field_link
+  module:
+    - link
+_core:
+  default_config_hash: xsuegJOXLgGwNOtyjktPFlbDLZJ1heJhDympmLRrWvA
+id: block_content.card_grid.field_link
+field_name: field_link
+entity_type: block_content
+bundle: card_grid
+label: Link
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

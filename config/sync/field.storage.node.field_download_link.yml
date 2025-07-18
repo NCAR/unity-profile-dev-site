@@ -1,0 +1,21 @@
+uuid: 86814177-2939-4351-a7d8-dad674b96fbd
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - node
+_core:
+  default_config_hash: hrYcT9vFFU1qfUTFNRCLx_xkxfSA5xKP9vdDZwHsnqk
+id: node.field_download_link
+field_name: field_download_link
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

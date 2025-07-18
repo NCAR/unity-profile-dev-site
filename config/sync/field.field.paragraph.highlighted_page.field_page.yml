@@ -1,0 +1,24 @@
+uuid: c6d531be-82f8-4cb4-9913-9e8048a41ccd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_page
+    - paragraphs.paragraphs_type.highlighted_page
+_core:
+  default_config_hash: _RVg1gKzT3_AAbt2LDv39JO1NzkEqH56Q-FIvIrUGEs
+id: paragraph.highlighted_page.field_page
+field_name: field_page
+entity_type: paragraph
+bundle: highlighted_page
+label: Page
+description: 'Choose a page to be displayed as a teaser on the current page.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: view_mode_selection
+  handler_settings:
+    view_mode: highlighted
+field_type: entity_reference

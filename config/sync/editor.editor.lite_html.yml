@@ -1,0 +1,88 @@
+uuid: 7c8fd753-ee92-4281-ab36-6d99883558c5
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.lite_html
+  module:
+    - ckeditor5
+_core:
+  default_config_hash: 5xgh_RXmD3pJfmNG4IgwyGdPEGl05kz5fsV4meMOUKA
+format: lite_html
+editor: ckeditor5
+settings:
+  toolbar:
+    items:
+      - heading
+      - style
+      - bold
+      - italic
+      - horizontalLine
+      - insertTable
+      - '|'
+      - link
+      - '|'
+      - bulletedList
+      - numberedList
+      - indent
+      - outdent
+      - '|'
+      - blockQuote
+      - code
+      - sourceEditing
+  plugins:
+    ckeditor5_heading:
+      enabled_headings:
+        - heading2
+        - heading3
+        - heading4
+        - heading5
+        - heading6
+    ckeditor5_style:
+      styles:
+        -
+          label: 'Intro Paragraph'
+          element: '<p class="body-font-large">'
+        -
+          label: Button
+          element: '<a class="btn btn-outline-primary btn-sm text-decoration-none">'
+        -
+          label: 'Phone Icon Link'
+          element: '<a class="i-phone--before">'
+        -
+          label: 'Email Icon Link'
+          element: '<a class="i-envelope--before">'
+        -
+          label: 'Chain Icon Link'
+          element: '<a class="i-link--before">'
+        -
+          label: 'PDF Icon Link'
+          element: '<a class="i-file-pdf--before">'
+        -
+          label: 'Download Icon Link'
+          element: '<a class="i-download--before">'
+        -
+          label: 'Responsive Table'
+          element: '<table class="rtable">'
+    ckeditor5_sourceEditing:
+      allowed_tags:
+        - '<cite>'
+        - '<dl>'
+        - '<dt>'
+        - '<dd>'
+        - '<blockquote cite>'
+        - '<ul type>'
+        - '<ol type>'
+        - '<h2 id>'
+        - '<h3 id>'
+        - '<h4 id>'
+        - '<h5 id>'
+        - '<h6 id>'
+        - '<a hreflang>'
+    ckeditor5_list:
+      properties:
+        reversed: false
+        startIndex: true
+      multiBlock: true
+image_upload:
+  status: false

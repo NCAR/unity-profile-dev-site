@@ -1,0 +1,12 @@
+uuid: 4d1d5c7e-4171-4303-a016-9cf00149ec44
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: xC8r3XRDJPvy7RxzDQsutoJnEo_6tepRMc5xMMNnFqw
+id: highlighted_page
+label: 'Highlighted page'
+icon_uuid: null
+icon_default: null
+description: 'Displays a page teaser.'
+behavior_plugins: {  }

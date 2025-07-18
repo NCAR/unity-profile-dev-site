@@ -1,0 +1,17 @@
+uuid: 037d02b6-e9cc-4e7c-adca-0b728fe7c60a
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: OtzyuOzpHErofHU4lmy2qPN9Ny0Pdx_GcYkoc9eAhhM
+name: teaser_380x254
+label: 'Teaser (380x254)'
+effects:
+  59b796d3-c9a2-4615-b0cb-7d96ffae9249:
+    uuid: 59b796d3-c9a2-4615-b0cb-7d96ffae9249
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 380
+      height: 254
+      anchor: center-center

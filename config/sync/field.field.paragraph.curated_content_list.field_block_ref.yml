@@ -1,0 +1,26 @@
+uuid: ee388d6f-61b3-45d5-8458-1ca376411e51
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_block_ref
+    - paragraphs.paragraphs_type.curated_content_list
+_core:
+  default_config_hash: IDeU17j6os7IDVujZFzfrDs9NRIooyBSNLteSGOFmzg
+id: paragraph.curated_content_list.field_block_ref
+field_name: field_block_ref
+entity_type: paragraph
+bundle: curated_content_list
+label: 'Content list'
+description: 'Choose the curated content listing that you would like to display on this page.'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:block'
+  handler_settings:
+    target_bundles: null
+    block_categories:
+      'Content block': 1
+field_type: entity_reference

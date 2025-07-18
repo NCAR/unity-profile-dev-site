@@ -1,0 +1,21 @@
+uuid: cddeef03-1d85-4eae-8b57-53e09325be14
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_job_title
+    - taxonomy.vocabulary.page_contacts
+_core:
+  default_config_hash: 99avvc3bc8BIk6ed9Qd0tpIm6k_Vi1wKlWJcYH4kbfY
+id: taxonomy_term.page_contacts.field_job_title
+field_name: field_job_title
+entity_type: taxonomy_term
+bundle: page_contacts
+label: 'Job title'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,19 @@
+uuid: fb06af16-aa0c-4429-bee2-dda3d7bb3b30
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+_core:
+  default_config_hash: sk3LuI9S0qQNBu7Tw42skOqgCxcdc6uss_BG323vT5c
+name: Stub
+type: stub
+description: 'Use this to create teasers for external resources or content cards that do not link to a page.'
+help: null
+new_revision: true
+preview_mode: 0
+display_submitted: false

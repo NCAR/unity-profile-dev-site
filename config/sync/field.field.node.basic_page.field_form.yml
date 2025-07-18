@@ -1,0 +1,27 @@
+uuid: fdca2f5a-0846-4c86-b738-0f64dbd3ba25
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_form
+    - node.type.basic_page
+  module:
+    - webform
+_core:
+  default_config_hash: TwUCiwqjhNRpQJwEWecHjEgh2OSjVOORwQAL3KgUPY4
+id: node.basic_page.field_form
+field_name: field_form
+entity_type: node
+bundle: basic_page
+label: Form
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:webform'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+field_type: webform

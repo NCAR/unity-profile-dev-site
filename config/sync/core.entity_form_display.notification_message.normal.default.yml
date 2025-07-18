@@ -1,0 +1,43 @@
+uuid: 809d519a-d386-4c2f-9c4e-30545d99bf64
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.notification_message.normal.field_link
+    - notification_message.type.normal
+  module:
+    - datetime
+    - link
+    - text
+_core:
+  default_config_hash: a0HQ6Lf7-XlBQRHJkMuZA5_KrGuYnOcm2pdjvRnSB0A
+id: notification_message.normal.default
+targetEntityType: notification_message
+bundle: normal
+mode: default
+content:
+  field_link:
+    weight: -4
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  label:
+    type: string_textfield
+    weight: -15
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  message:
+    type: text_textarea
+    weight: -5
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

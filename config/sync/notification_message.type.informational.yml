@@ -1,0 +1,15 @@
+uuid: c525936b-dd2f-4184-8600-34775ae86f02
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: IEY3y0Jd61JWaYgMReZroebtnMnORfPZstHW3EgqgVk
+id: informational
+help: ''
+label: Informational
+description: 'Use this notification type for providing updates to your site visitors.'
+allow_condition: true
+condition_datatype: {  }
+notification_dismiss:
+  show: true
+  button_text: Dismiss

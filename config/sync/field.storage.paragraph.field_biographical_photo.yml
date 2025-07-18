@@ -1,0 +1,22 @@
+uuid: ca94ddea-94e0-4dcd-9232-705f0d258bbf
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+    - paragraphs
+_core:
+  default_config_hash: qCUcD6rPqnusDw-SE5tUVR5szbcdWWkWMR2wsbG6lJ8
+id: paragraph.field_biographical_photo
+field_name: field_biographical_photo
+entity_type: paragraph
+type: entity_reference
+settings:
+  target_type: media
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

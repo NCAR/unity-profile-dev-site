@@ -1,0 +1,28 @@
+uuid: 88f7ca4c-7345-4b4d-93ba-d2b57055a9ea
+langcode: en
+status: true
+dependencies:
+  module:
+    - notification_message
+  theme:
+    - block_repository
+_core:
+  default_config_hash: mNOv6AlPmUu3m4wk_UDdQvOLY_JJuO5DBR7UU4_XsOc
+id: block_repository_notification_messages
+theme: block_repository
+region: content
+weight: -1
+provider: null
+plugin: notification_message
+settings:
+  id: notification_message
+  label: 'Notification messages'
+  label_display: '0'
+  provider: notification_message
+  notification_message:
+    type:
+      exceptional: exceptional
+      informational: informational
+      normal: normal
+    display_mode: default
+visibility: {  }

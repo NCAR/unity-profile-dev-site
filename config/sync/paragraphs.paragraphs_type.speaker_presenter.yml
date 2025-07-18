@@ -1,0 +1,12 @@
+uuid: 8d4f9dd8-ee39-4626-9e09-22e89b27306e
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: yjB_nH2D7hxl97TQaooKO4sujcDvJ1aVO2NN-AQ2YGI
+id: speaker_presenter
+label: Speaker/Presenter
+icon_uuid: null
+icon_default: null
+description: 'For adding a featured speaker or speakers to Events and Event Series.'
+behavior_plugins: {  }

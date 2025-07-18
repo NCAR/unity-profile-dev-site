@@ -1,0 +1,21 @@
+uuid: 47a40569-a615-43eb-9723-706096171791
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - text
+_core:
+  default_config_hash: ozLxmuCQACiReZM4A9bYLDWw-AJ3Wye6uT4eW_wsH50
+id: paragraph.field_agenda_description
+field_name: field_agenda_description
+entity_type: paragraph
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

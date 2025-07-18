@@ -1,0 +1,60 @@
+uuid: da40d187-1532-4be3-8788-3564ae3dc9e6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.embedded_webpage.field_caption
+    - field.field.paragraph.embedded_webpage.field_display_iframe_title
+    - field.field.paragraph.embedded_webpage.field_fullscreen
+    - field.field.paragraph.embedded_webpage.field_iframe
+    - paragraphs.paragraphs_type.embedded_webpage
+  module:
+    - iframe
+    - text
+_core:
+  default_config_hash: MCd-23nMLK_-ZXf80ue1bAI4MtGfHv5Y0qAVzvSn_jo
+id: paragraph.embedded_webpage.default
+targetEntityType: paragraph
+bundle: embedded_webpage
+mode: default
+content:
+  field_caption:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  field_display_iframe_title:
+    type: boolean_checkbox
+    weight: 1
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  field_fullscreen:
+    type: boolean_checkbox
+    weight: 3
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  field_iframe:
+    weight: 1
+    settings:
+      width: ''
+      height: ''
+      class: ''
+      expose_class: false
+      frameborder: '0'
+      scrolling: auto
+      transparency: '0'
+      tokensupport: '0'
+      allowfullscreen: '1'
+    third_party_settings: {  }
+    type: iframe_urlwidthheight
+    region: content
+hidden:
+  created: true
+  status: true

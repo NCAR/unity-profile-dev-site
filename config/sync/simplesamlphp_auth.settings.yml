@@ -1,0 +1,30 @@
+_core:
+  default_config_hash: RBwtEaBzx379JdJ6IYvWmTYPFsDwE50vUlEIs9VW4Hc
+langcode: en
+activate: true
+auth_source: default-sp
+login_link_display_name: 'Log in with CIT'
+login_link_show: true
+user_name: 'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name'
+unique_id: 'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name'
+mail_attr: 'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress'
+header_no_cache: false
+role:
+  population: ''
+  eval_every_time: false
+register_users: true
+allow:
+  set_drupal_pwd: false
+  default_login: true
+  default_login_roles:
+    administrator: administrator
+    authenticated: '0'
+  default_login_users: '1'
+logout_goto_url: ''
+user_register_original: admin_only
+sync:
+  mail: true
+  user_name: true
+autoenablesaml: true
+debug: false
+secure: true

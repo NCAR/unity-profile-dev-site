@@ -1,0 +1,15 @@
+uuid: d0a5a265-58f1-49f7-ab2e-5b3e706348e6
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: orKG-y7-zqxdscXb13ddn8Dn68ip9yQz19kSsJ-_cak
+id: normal
+help: ''
+label: Normal
+description: 'Use this notification type for important, but not urgent messages.'
+allow_condition: true
+condition_datatype: {  }
+notification_dismiss:
+  show: true
+  button_text: Dismiss

@@ -1,0 +1,12 @@
+uuid: b6b9f906-edb1-407e-8a04-ca7a1d5e3e57
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 17bWCQk2VRg1yV7dfa5yO1GOVIMuKUGXKw7l87-yfJ4
+id: summary
+label: Summary
+icon_uuid: null
+icon_default: null
+description: 'A summary provides a brief description of the topic covered by this overview page.'
+behavior_plugins: {  }

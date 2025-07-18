@@ -1,0 +1,22 @@
+uuid: 7d7f2033-9ac4-41e9-b698-5befb0246c3d
+langcode: en
+status: true
+dependencies:
+  module:
+    - datetime_range
+    - paragraphs
+_core:
+  default_config_hash: W0JuqJESNGt-DZD6CkyDV1l3yFM0deeFYwDCMSNU6Tg
+id: paragraph.field_date_and_time
+field_name: field_date_and_time
+entity_type: paragraph
+type: daterange
+settings:
+  datetime_type: datetime
+module: datetime_range
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

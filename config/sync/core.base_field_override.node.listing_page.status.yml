@@ -1,0 +1,24 @@
+uuid: 50b7ad19-b0b8-4216-850d-bf92ad9d9735
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.listing_page
+_core:
+  default_config_hash: Lam18FQJdyI81sBayXv1-moCeueiMxQp9RcT9AEtJMo
+id: node.listing_page.status
+field_name: status
+entity_type: node
+bundle: listing_page
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

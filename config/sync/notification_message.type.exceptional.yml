@@ -1,0 +1,15 @@
+uuid: 7753f7ae-30b8-45f7-b063-f9ec4e0c4f09
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: dureb_M0gWkQ-skwrSqQe-bxRsoaGdiEjTa416PYPXA
+id: exceptional
+help: ''
+label: Exceptional
+description: 'Use this for broadcasting critical information to your site visitors.'
+allow_condition: true
+condition_datatype: {  }
+notification_dismiss:
+  show: true
+  button_text: Dismiss

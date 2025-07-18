@@ -1,0 +1,31 @@
+uuid: f3b91768-91d5-4482-89e9-f575679a167b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_media_item
+    - media.type.image
+    - paragraphs.paragraphs_type.masthead
+_core:
+  default_config_hash: xMbTeRME1_IXxbaQRNSPqKD6FYXTwaW9C8fZ7ywrrXg
+id: paragraph.masthead.field_media_item
+field_name: field_media_item
+entity_type: paragraph
+bundle: masthead
+label: Image
+description: 'Select an image that will be suitable if it is displayed in a panoramic aspect ratio.'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: changed
+      direction: DESC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

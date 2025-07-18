@@ -1,0 +1,12 @@
+uuid: 6b31143f-b789-4555-9250-327ca4a08775
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: CzAfULAGJuQX-Lu900FXJw0DA483KcnSAiafuvTDm5w
+id: media_resource
+label: 'Media Resource'
+icon_uuid: null
+icon_default: null
+description: 'This media resource may only reference <em>Documents</em>.'
+behavior_plugins: {  }

@@ -1,0 +1,10 @@
+uuid: df76c00b-1fa1-4b25-9277-2f55fea82a93
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 77WfAb19ov_lZdvJzh-Grj9jL2bcp9DxA7YooHK_2VY
+id: short_textual
+label: 'Short textual'
+locked: false
+pattern: 'M j, Y'

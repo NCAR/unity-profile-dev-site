@@ -1,0 +1,12 @@
+uuid: 5b52633b-d71a-4a89-9a0b-5147f8b09029
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: ngBx5S2YiTr6-jVf96N4XxS_1GDPO9uBy9XfEUg7YR8
+id: content_menu
+label: 'Content menu'
+icon_uuid: null
+icon_default: null
+description: 'Add a menu block to the page'
+behavior_plugins: {  }

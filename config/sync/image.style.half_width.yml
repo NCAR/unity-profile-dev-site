@@ -1,0 +1,17 @@
+uuid: 79b89435-bd70-4deb-bb7a-78a823518c61
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: KjX5cvbPv_k1eFqEJQ_DDIUlPdwhAXbpT0XhNlCPQLA
+name: half_width
+label: 'Half Width'
+effects:
+  2b844164-7fb3-4b76-88f1-134bfa114459:
+    uuid: 2b844164-7fb3-4b76-88f1-134bfa114459
+    id: image_scale
+    weight: 1
+    data:
+      width: 694
+      height: null
+      upscale: true

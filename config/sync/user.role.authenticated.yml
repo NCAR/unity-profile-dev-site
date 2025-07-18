@@ -1,0 +1,25 @@
+uuid: 539b2c9d-a863-4b14-8f2f-51aae3b1bb8f
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.simple_text
+  module:
+    - eu_cookie_compliance
+    - filter
+    - media
+    - shortcut
+    - system
+_core:
+  default_config_hash: Np3thRsTGrB250eWNSM2TMdSZTJrI0enOe7I-mTeq8A
+id: authenticated
+label: 'Authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access content'
+  - 'access shortcuts'
+  - 'display eu cookie compliance popup'
+  - 'use text format simple_text'
+  - 'view media'
+  - 'view the administration theme'

@@ -1,0 +1,24 @@
+uuid: e0edf96b-d2c4-4a76-975e-7165a5769b19
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_biography
+    - paragraphs.paragraphs_type.speaker_presenter
+  module:
+    - text
+_core:
+  default_config_hash: Skac2ZaDArBzThivAzxN6ewLksdnDW-FH984TrBcmsA
+id: paragraph.speaker_presenter.field_biography
+field_name: field_biography
+entity_type: paragraph
+bundle: speaker_presenter
+label: Biography
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

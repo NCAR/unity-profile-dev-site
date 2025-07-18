@@ -1,0 +1,25 @@
+uuid: 1795ceca-5e8d-467f-b1e9-ea1f153b5363
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_display_updated_date
+    - paragraphs.paragraphs_type.media_resource
+_core:
+  default_config_hash: GhKXfNx6ZS47IdT_3HPlkh59cLQoiENJaXTxQDzN048
+id: paragraph.media_resource.field_display_updated_date
+field_name: field_display_updated_date
+entity_type: paragraph
+bundle: media_resource
+label: 'Display updated date'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

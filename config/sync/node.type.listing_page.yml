@@ -1,0 +1,24 @@
+uuid: 680ee267-29cc-4f72-9162-9a220d36afb1
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+    - page_contacts
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+  page_contacts:
+    enabled: true
+    required: false
+_core:
+  default_config_hash: M1Tm4_HmIuPGEuejts_k6RjNAeXkMMRRBcNeWPbSn4M
+name: 'Listing page'
+type: listing_page
+description: 'A listing page is for listing content, usually of a single category. It does not have additional structured metadata like an event (e.g. a time, date, and location).'
+help: null
+new_revision: true
+preview_mode: 0
+display_submitted: false

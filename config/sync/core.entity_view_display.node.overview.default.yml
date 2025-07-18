@@ -1,0 +1,37 @@
+uuid: 883a9c2c-842e-40f6-865e-977a69e07473
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.overview.field_main_content
+    - field.field.node.overview.field_primary_image
+    - field.field.node.overview.field_teaser_summary
+    - field.field.node.overview.layout_builder__layout
+    - node.type.overview
+  module:
+    - layout_paragraphs
+    - user
+_core:
+  default_config_hash: OBEToDtf4nyxDdE8XKotYIlxU-n12o-CBFqRgn7E2_s
+id: node.overview.default
+targetEntityType: node
+bundle: overview
+mode: default
+content:
+  field_main_content:
+    weight: 0
+    label: hidden
+    settings:
+      preview_view_mode: default
+      nesting_depth: 1
+      require_layouts: 1
+      empty_message: ''
+    third_party_settings: {  }
+    type: layout_paragraphs_builder
+    region: content
+hidden:
+  field_primary_image: true
+  field_teaser_summary: true
+  layout_builder__layout: true
+  links: true
+  search_api_excerpt: true

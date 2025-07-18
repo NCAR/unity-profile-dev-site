@@ -1,0 +1,33 @@
+uuid: 83a4b85e-4639-4c0d-a33e-c2b58a985c66
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.media_library
+    - field.field.media.document.field_media_file
+    - image.style.medium
+    - media.type.document
+  module:
+    - image
+_core:
+  default_config_hash: Kyx2tX9mT1vekPByUQ0uy_b6cCQEj-tvzUmMLhCqsYw
+id: media.document.media_library
+targetEntityType: media
+bundle: document
+mode: media_library
+content:
+  thumbnail:
+    type: image
+    label: hidden
+    settings:
+      image_style: medium
+      image_link: ''
+    weight: 0
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  field_media_file: true
+  name: true
+  search_api_excerpt: true
+  uid: true

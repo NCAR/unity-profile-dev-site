@@ -1,0 +1,12 @@
+uuid: 1a4f4c9e-00cf-485e-aecf-4ee8d8431b7d
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: xtZklWP9DbOhq04JLcbaN7XL7mDMCFhCkJcQv2TboLU
+id: info_resource
+label: 'Info Resource'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

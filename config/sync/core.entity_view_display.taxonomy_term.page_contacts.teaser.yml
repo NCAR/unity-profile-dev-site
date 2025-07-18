@@ -1,0 +1,50 @@
+uuid: 92926c78-86d0-4d18-9112-edae9e789fcf
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.taxonomy_term.teaser
+    - field.field.taxonomy_term.page_contacts.field_email
+    - field.field.taxonomy_term.page_contacts.field_job_title
+    - field.field.taxonomy_term.page_contacts.field_phone
+    - taxonomy.vocabulary.page_contacts
+  module:
+    - layout_builder
+    - telephone
+third_party_settings:
+  layout_builder:
+    allow_custom: false
+    enabled: false
+_core:
+  default_config_hash: QtNHX0nPaZB0KIYOGP7Sk3KkxzZ9E3PvFCLarOPgWVA
+id: taxonomy_term.page_contacts.teaser
+targetEntityType: taxonomy_term
+bundle: page_contacts
+mode: teaser
+content:
+  field_email:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: email_mailto
+    region: content
+  field_job_title:
+    weight: 0
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_phone:
+    weight: 2
+    label: hidden
+    settings:
+      title: ''
+    third_party_settings: {  }
+    type: telephone_link
+    region: content
+hidden:
+  description: true
+  search_api_excerpt: true

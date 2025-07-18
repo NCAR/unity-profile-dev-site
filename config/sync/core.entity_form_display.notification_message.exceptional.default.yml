@@ -1,0 +1,43 @@
+uuid: efc6044a-327e-490f-9cb2-2a2f0591ca7d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.notification_message.exceptional.field_link
+    - notification_message.type.exceptional
+  module:
+    - datetime
+    - link
+    - text
+_core:
+  default_config_hash: xcdxe5kB2nSp66BNqapGF4k2thAdSRIDihFJkB05TTo
+id: notification_message.exceptional.default
+targetEntityType: notification_message
+bundle: exceptional
+mode: default
+content:
+  field_link:
+    weight: -4
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  label:
+    type: string_textfield
+    weight: -15
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  message:
+    type: text_textarea
+    weight: -5
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

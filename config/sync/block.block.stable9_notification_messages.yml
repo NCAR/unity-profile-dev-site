@@ -1,0 +1,28 @@
+uuid: b6d02a93-9114-484a-9a0e-4517bbb3b29e
+langcode: en
+status: true
+dependencies:
+  module:
+    - notification_message
+  theme:
+    - stable9
+_core:
+  default_config_hash: mNOv6AlPmUu3m4wk_UDdQvOLY_JJuO5DBR7UU4_XsOc
+id: stable9_notification_messages
+theme: stable9
+region: header
+weight: -1
+provider: null
+plugin: notification_message
+settings:
+  id: notification_message
+  label: 'Notification messages'
+  label_display: '0'
+  provider: notification_message
+  notification_message:
+    type:
+      exceptional: exceptional
+      informational: informational
+      normal: normal
+    display_mode: default
+visibility: {  }

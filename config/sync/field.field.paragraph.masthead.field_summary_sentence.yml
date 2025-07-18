@@ -1,0 +1,21 @@
+uuid: c1ff9780-f4e9-4564-af5b-65a5f149f170
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_summary_sentence
+    - paragraphs.paragraphs_type.masthead
+_core:
+  default_config_hash: pmc1-cv2KV7Wyl7sCJrUhIkO6eXq_d67tj4jBZ0vle4
+id: paragraph.masthead.field_summary_sentence
+field_name: field_summary_sentence
+entity_type: paragraph
+bundle: masthead
+label: 'Summary sentence'
+description: 'Briefly summarize the purpose of the page on which this masthead will appear.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
