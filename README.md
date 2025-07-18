@@ -39,3 +39,6 @@ ddev drush site:install unity_profile --account-name=admin --account-pass=admin
 
 # 5. Launch the site
 ddev launch
+
+# 6. Develop in Unity Profile directory
+cd web/profiles/custom/unity-profile
