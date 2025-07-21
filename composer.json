@@ -10,6 +10,18 @@
     },
     "repositories": [
         {
+            "type": "vcs",
+            "url": "https://github.com/NCAR/people"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/NCAR/staff_data"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/NCAR/unity-dev-modules"
+        },
+        {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
         }
