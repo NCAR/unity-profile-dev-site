@@ -1,0 +1,21 @@
+grumphp:
+  tasks:
+    phpcs:
+      standard:
+        - "Drupal"
+      encoding: "UTF-8"
+      ignore_patterns:
+        - .ucar/
+        - assets/
+      triggered_by:
+        - php
+        - module
+        - profile
+        - inc
+    git_blacklist:
+      keywords:
+        - "die("
+        - "var_dump("
+        - "exit;"
+        - "console.log("
+      triggered_by: ["php", "module", "profile", "inc", "js"]
