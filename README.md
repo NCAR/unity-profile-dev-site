@@ -46,5 +46,14 @@ cd web/profiles/custom/unity-profile
 
 ## To check whether the code follows the [Drupal coding standards](https://www.drupal.org/docs/develop/standards), run the following command from the project root:
 
+
 ```bash
 ddev exec vendor/bin/phpcs --standard=Drupal web/profiles/custom/unity-profile/modules/opensky_publications
+```
+
+## Auto-fix fixable violations:
+
+```bash
+ddev exec vendor/bin/phpcbf --standard=Drupal web/profiles/custom/unity-profile/modules/opensky_publications
+```
+
